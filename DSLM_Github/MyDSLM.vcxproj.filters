@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="CameraFiles">
+      <UniqueIdentifier>{a90bd328-c793-4cf0-a7f0-c4149130c6b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ScannerFiles">
+      <UniqueIdentifier>{a84b8a56-1862-4f39-a559-e6e0292b66fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LiveCam1Code">
+      <UniqueIdentifier>{631584fd-3536-4514-8679-1517a35d2472}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Image Form">
+      <UniqueIdentifier>{7ce64bca-20ad-49ef-95aa-8d7c9b92facc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="StageFiles">
+      <UniqueIdentifier>{0283d070-0570-4af7-885f-b39877fcc00e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MainForm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MyDSLM.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraFiles\Cameras.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraFiles\stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StageFiles\Stage.cpp">
+      <Filter>StageFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="ScannerFiles\stdafx.cpp">
+      <Filter>ScannerFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="ScannerFiles\ScanHead.cpp">
+      <Filter>ScannerFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="LiveCam1.cpp">
+      <Filter>LiveCam1Code</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraFiles\Images.cpp">
+      <Filter>LiveCam1Code</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageSizeForm.cpp">
+      <Filter>Image Form</Filter>
+    </ClCompile>
+    <ClCompile Include="Zprojection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RuntimeLibraries.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MainForm.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraFiles\Cameras.h">
+      <Filter>CameraFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraFiles\ccDefine.h">
+      <Filter>CameraFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraFiles\dcamapi.h">
+      <Filter>CameraFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraFiles\dcamapi3.h">
+      <Filter>CameraFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraFiles\dcamapix.h">
+      <Filter>CameraFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraFiles\dcamprop.h">
+      <Filter>CameraFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraFiles\dcimgapi.h">
+      <Filter>CameraFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="StageFiles\PI_GCS2_DLL.h">
+      <Filter>StageFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="StageFiles\Stage.h">
+      <Filter>StageFiles</Filter>
+    <ClInclude Include="ScannerFiles\stdafx.h">
+      <Filter>ScannerFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="ScannerFiles\ScanHead.h">
+      <Filter>ScannerFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LiveCam1.h">
+      <Filter>LiveCam1Code</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraFiles\Images.h">
+      <Filter>LiveCam1Code</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageSizeForm.h">
+      <Filter>Image Form</Filter>
+    </ClInclude>
+    <ClInclude Include="ScannerFiles\RTC5impl.h">
+      <Filter>ScannerFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="Zprojection.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="CameraFiles\dcamapi.lib">
+      <Filter>CameraFiles</Filter>
+    </Library>
+    <Library Include="StageFiles\PI_GCS2_DLL_x64.lib">
+      <Filter>StageFiles</Filter>
+    </Library>
+    <Library Include="ScannerFiles\RTC5DLLx64.lib">
+      <Filter>ScannerFiles</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="PI_GCS2_DLL_x64.dll">
+      <Filter>StageFiles</Filter>
+    </None>
+    <None Include="Cor_1to1.ctb">
+      <Filter>ScannerFiles</Filter>
+    </None>
+    <None Include="CameraFiles\dcamapilog.all+.reg">
+      <Filter>LiveCam1Code</Filter>
+    </None>
+    <None Include="ScannerFiles\RTC5DAT.dat">
+      <Filter>ScannerFiles</Filter>
+    </None>
+    <None Include="ScannerFiles\RTC5DLL.dll">
+      <Filter>ScannerFiles</Filter>
+    </None>
+    <None Include="ScannerFiles\RTC5OUT.out">
+      <Filter>ScannerFiles</Filter>
+    </None>
+    <None Include="ScannerFiles\RTC5RBF.rbf">
+      <Filter>ScannerFiles</Filter>
+    </None>
+    <None Include="Cor_1to1.ct5">
+      <Filter>ScannerFiles</Filter>
+    </None>
+  </ItemGroup>
+  </Project>
